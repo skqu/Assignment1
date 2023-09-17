@@ -2,22 +2,16 @@
 
 Du skal oprette en simpel lommeregner i Python, der kan udføre de fire grundlæggende regneoperationer: addition, subtraktion, multiplikation og division. Derudover skal din lommeregner have fejlhåndtering indbygget for at undgå uønskede situationer, som f.eks. division med nul eller ugyldige operationer.
 
-### Trin 2: Tilføj de andre operationer
+### Trin 3: Fejlhåndtering
 
-Nu skal vi udvide vores lommeregner, så den kan udføre alle vores operationer.
+Nu skal vi begynde at implementere fejlhåndtering i vores lommeregner – dette trin vil omfatte basal fejlhåndtering uden brug af undtagelser.
 
-1. **Pseudo kode:** Vi skal tilpasse vores pseudo kode, så vi har styr på alle vores operationer. Hint: Vær opmærksom på, hvordan man adskiller de fire operationer.
+1. **Identificere mulige fejl:** Noter de fejl, som I kan forestille jer, at en bruger laver, som ville være uhensigtsmæssige på en lommeregner. Hint: Tænk både matematisk, f.eks. kvadratroden af -1, og også brugen af systemet. Er det meningsfuldt at trække strenge fra hinanden?
 
-    For eksempel kan pseudo koden se således ud for addition og subtraktion:
+2. **Pseudo kode:** Tilpas vores pseudo kode, så vi ved, hvornår vi potentielt kan støde på fejl. Hint: Tænk på løsninger til at håndtere disse fejl.
 
-    ```
-    Hvis operationen er addition:
-        Udfør addition
-    Hvis operationen er subtraktion:
-        Udfør subtraktion
-    ```
+3. **Tilføj den første fejlhåndtering:** Lav nu de nødvendige ændringer i koden for at håndtere den første identificerede fejl. Hint: Test grundigt, da det muligvis ikke fungerer som forventet.
 
-2. **Tilføj de fire operationer:** Lav nu de nødvendige ændringer i koden for at tilføje de fire operationer. Hint: Tilføj en operation ad gangen. Det er lettere at fejlsøge med kun to operationer i stedet for fire.
+4. **Tilføj resten:** Når I har styr på den første fejlhåndtering, tilføj de resterende fejlhåndteringer. Hint: Ligesom med operationer, sørg for at den første fejlhåndtering fungerer, før I går videre til de næste.
 
-3. **Tilføj de fire operationer:** Lav nu de nødvendige ændringer i koden for at tilføje de fire operationer. Hint: Tilføj en operation ad gangen. Det er lettere at fejlsøge med kun to operationer i stedet for fire.
 
